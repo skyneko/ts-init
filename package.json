@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node ./dist/laffey.js",
+    "build": "tsc -p .",
+    "dev": "ts-node ./src/laffey.ts",
+    "test": "ts-node ./src/test/test.ts"
+  },
+  "author": "yui421",
+  "license": "ISC",
+  "description": ""
+}
